@@ -1,0 +1,16 @@
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\obj\Debug\PartyInvitesTests1.csprojResolveAssemblyReference.cache
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\bin\Debug\PartyInvitesTests1.dll
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\bin\Debug\PartyInvitesTests1.pdb
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\bin\Debug\PartyInvites.dll
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\bin\Debug\System.Web.Mvc.dll
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\bin\Debug\PartyInvites.pdb
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\bin\Debug\System.Web.Mvc.xml
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\obj\Debug\PartyInvitesTests1.dll
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\obj\Debug\PartyInvitesTests1.pdb
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\bin\Debug\System.Web.WebPages.dll
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\bin\Debug\System.Web.WebPages.xml
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+E:\GitFile\promvc5\PartyInvites\PartyInvitesTests1\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll

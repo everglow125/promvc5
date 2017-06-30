@@ -38,5 +38,19 @@ namespace PartyInvites.Controllers
             }
 
         }
+
+        private IUserRepository repository;
+        public HomeController(IUserRepository repo)
+        {
+            repository = repo;
+        }
+
+        public ActionResult ChangeLoginName(string oldName, string newName)
+        {
+            var user = repository.FetchByLoginName(oldName);
+            user.LoginName = newName;
+            repository.SubmitChanges();
+            return View();
+        }
     }
 }
