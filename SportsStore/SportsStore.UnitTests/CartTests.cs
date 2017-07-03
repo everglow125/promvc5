@@ -2,6 +2,11 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SportsStore.Domain.Entities;
 using System.Linq;
+using Moq;
+using SportsStore.WebUI.Controllers;
+using SportsStore.WebUI.Models;
+using System.Web.Mvc;
+using SportsStore.Domain.Abstract;
 
 namespace SportsStore.UnitTests
 {
@@ -88,5 +93,54 @@ namespace SportsStore.UnitTests
 
             Assert.AreEqual(0, target.Lines.Count());
         }
+
+        #region Controller
+        [TestMethod]
+        public void CanAddToCart()
+        {
+            Mock<IProductRepository> mock = new Mock<IProductRepository>();
+            mock.Setup(m => m.Products).Returns(new Product[] {
+                new Product(){ ProductID=1, Name="P1",Price=25,Category="Apples"},
+            }.AsQueryable());
+
+            Cart cart = new Cart();
+            CartController target = new CartController(mock.Object);
+            target.AddToCart(cart, 1, null);
+            Assert.AreEqual(1, cart.Lines.Count());
+            Assert.AreEqual(1, cart.Lines.ToArray()[0].Product.ProductID);
+        }
+
+        [TestMethod]
+        public void AddingProductToCartGoesToCartScreen()
+        {
+            Mock<IProductRepository> mock = new Mock<IProductRepository>();
+            mock.Setup(m => m.Products).Returns(new Product[] {
+                new Product(){ ProductID=1, Name="P1",Price=25,Category="Apples"},
+            }.AsQueryable());
+
+            Cart cart = new Cart();
+
+            CartController target = new CartController(mock.Object);
+
+            RedirectToRouteResult result = target.AddToCart(cart, 2, "myUrl");
+
+            Assert.AreEqual("Index", result.RouteValues["action"]);
+            Assert.AreEqual("myUrl", result.RouteValues["returnUrl"]);
+        }
+
+        [TestMethod]
+        public void CanViewCartContents()
+        {
+            Cart cart = new Cart();
+
+            CartController target = new CartController(null);
+            CartIndexViewModel result = (CartIndexViewModel)target.Index(cart, "myUrl").ViewData.Model;
+
+            Assert.AreEqual(cart, result.Cart);
+            Assert.AreEqual("myUrl", result.ReturnUrl);
+        }
+
+
+        #endregion
     }
 }
