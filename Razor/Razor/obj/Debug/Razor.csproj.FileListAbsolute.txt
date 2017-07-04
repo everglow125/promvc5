@@ -22,3 +22,6 @@ E:\GitFile\promvc5\Razor\Razor\bin\zh-Hans\System.Web.Mvc.resources.dll
 E:\GitFile\promvc5\Razor\Razor\obj\Debug\Razor.csprojResolveAssemblyReference.cache
 E:\GitFile\promvc5\Razor\Razor\obj\Debug\Razor.dll
 E:\GitFile\promvc5\Razor\Razor\obj\Debug\Razor.pdb
+E:\GitFile\promvc5\Razor\Razor\bin\Ninject.dll
+E:\GitFile\promvc5\Razor\Razor\bin\Ninject.pdb
+E:\GitFile\promvc5\Razor\Razor\bin\Ninject.xml
