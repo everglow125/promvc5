@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="liaojinSportsStore" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\GitFile\\promvc5\\SportsStore\\SportsStore\.WebUI\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\GitFile\\promvc5\\SportsStore\\SportsStore\.WebUI\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="EFDbContext-Web.config Connection String" description="" value="Data Source=tcp:id85lddtze.database.chinacloudapi.cn,1433;Initial Catalog=liaojinSportsStore;User Id=sportsstore@id85lddtze;Password=!QA2ws3ed" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\GitFile\\promvc5\\SportsStore\\SportsStore\.WebUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EFDbContext']/@connectionString" />
+  </parameter>
+</parameters>

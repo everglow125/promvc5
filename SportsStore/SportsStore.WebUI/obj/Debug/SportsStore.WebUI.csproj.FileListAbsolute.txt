@@ -40,3 +40,5 @@ E:\GitFile\promvc5\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
 E:\GitFile\promvc5\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
 E:\GitFile\promvc5\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
 E:\GitFile\promvc5\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+E:\GitFile\promvc5\SportsStore\SportsStore.WebUI\bin\zh-Hans\EntityFramework.resources.dll
+E:\GitFile\promvc5\SportsStore\SportsStore.WebUI\bin\zh-Hans\EntityFramework.SqlServer.resources.dll

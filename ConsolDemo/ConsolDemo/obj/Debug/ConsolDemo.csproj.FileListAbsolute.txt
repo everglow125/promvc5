@@ -1,0 +1,5 @@
+E:\GitFile\promvc5\ConsolDemo\ConsolDemo\bin\Debug\ConsolDemo.exe.config
+E:\GitFile\promvc5\ConsolDemo\ConsolDemo\bin\Debug\ConsolDemo.exe
+E:\GitFile\promvc5\ConsolDemo\ConsolDemo\bin\Debug\ConsolDemo.pdb
+E:\GitFile\promvc5\ConsolDemo\ConsolDemo\obj\Debug\ConsolDemo.exe
+E:\GitFile\promvc5\ConsolDemo\ConsolDemo\obj\Debug\ConsolDemo.pdb
